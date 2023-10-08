@@ -14,7 +14,7 @@ const CardAtleta = ({ atleta, onAddToFavorites }) => {
     
     return(
         <div className="card">
-            <img src={strThumb} alt={strPlayer} />
+            <img src={strThumb} alt={strPlayer} style={{ maxWidth: '300px', heigth: '200px' }}/>
             <h3>{strPlayer}</h3>
             <p>Posição: {strPosition}</p>
             <p>Altura: {strHeight}</p>
